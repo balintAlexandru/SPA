@@ -31,7 +31,7 @@ let module = {
             let p1 = document.createElement('p');
             p1.innerHTML = eachItem.price;
             let image = document.createElement('img');
-            image.src = "https://balintalexandru.github.io/SPA/mac-air.png";
+            image.src = URL("https://balintalexandru.github.io/SPA/mac-air.png");
             let button = document.createElement('button');
             button.innerHTML = eachItem.button;
 
