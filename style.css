@@ -1,0 +1,101 @@
+body{
+   background-image:url(C:/Users/Alex/Desktop/SPA/model/digital-mobile.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+h1{
+   font-size: 50px; 
+   letter-spacing: 5px;
+   font-weight: 1;
+   text-align: center;
+  
+}
+
+#category ul{
+    list-style-type: none;
+    display: flex;
+    background-color:rgba(148, 143, 143, 0.637) ;
+    padding-left: 0px;
+    height: 60px;
+}
+
+#category ul li {
+    flex-grow: 1;
+    text-align: center;
+    font-size : 25px;
+    padding-top: 15px;
+    letter-spacing: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+
+}
+#category li:hover {
+    background-color: rgba(124, 123, 123, 0.596);
+}
+
+#page{
+    width: 100%;
+    text-align: center;
+}
+.mac{
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    height: 600px;
+}
+.mac li{
+    font-size: 18px;
+    color: white;
+    flex-grow: 1;
+    letter-spacing: 3px;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.titleProduct{
+    font-size: 35px;
+}
+li img {
+    height: 250px;
+    width: 300px;
+    padding-bottom: 30px;
+}
+.r1, .r3{
+    background-color: rgba(0, 0, 0, 0.835);
+    width: 300px;
+    
+}
+.r2{
+    background-color: rgba(0, 0, 0, 0.972);
+    width: 300px;
+}
+button{
+    padding: 3px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 3;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(255, 166, 0, 0.801);
+    cursor: pointer;
+}
+.iphone{
+    width: 100px;
+    height: 190px;
+    
+}
+.iphone1{
+    width: 130px;
+    height: 190px;
+    
+}
+.log{
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+
